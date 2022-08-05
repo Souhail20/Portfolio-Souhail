@@ -6,7 +6,7 @@ import { BiLinkExternal } from "react-icons/bi";
 function ProjectCards({ title, imgPath, description, link, isBlog }) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={imgPath} alt="card-img" />
+      <Card.Img variant="top" src={imgPath} alt="card-img" style={{ maxWidth: 450, maxHeight: 250 }} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
